@@ -6,6 +6,10 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "4.2.1",
+    "npm": "2.14.7"
+  },
   "dependencies": {
     "webpack": "^1.13.0"
   },
