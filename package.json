@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/loschorts/random-landscape/issues"
   },
+  "scripts": {
+    "postinstall": "./node_modules/.bin/webpack"
+  },
   "homepage": "https://github.com/loschorts/random-landscape#readme"
 }
