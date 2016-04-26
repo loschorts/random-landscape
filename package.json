@@ -15,8 +15,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/webpack"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/loschorts/random-landscape.git"
@@ -26,9 +27,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/loschorts/random-landscape/issues"
-  },
-  "scripts": {
-    "postinstall": "./node_modules/.bin/webpack"
   },
   "homepage": "https://github.com/loschorts/random-landscape#readme"
 }
